@@ -1,0 +1,625 @@
+{
+ "start": "2027-02-19T00:00:00+00:00",
+ "contacts": [
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 0.0,
+   "end_s": 3860.0,
+   "duration_s": 3860.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.304,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 0.0,
+   "end_s": 3860.0,
+   "duration_s": 3860.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.304,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 200,
+   "start_s": 2740.0,
+   "end_s": 3340.0,
+   "duration_s": 600.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 200,
+   "to": 100,
+   "start_s": 2740.0,
+   "end_s": 3340.0,
+   "duration_s": 600.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 5000.0,
+   "end_s": 10640.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.297,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 5000.0,
+   "end_s": 10640.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.297,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 11780.0,
+   "end_s": 17420.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.289,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 11780.0,
+   "end_s": 17420.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.289,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 18560.0,
+   "end_s": 24200.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.282,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 18560.0,
+   "end_s": 24200.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.282,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 25340.0,
+   "end_s": 30980.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.275,
+   "via": "Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 25340.0,
+   "end_s": 30980.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.275,
+   "via": "Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 32120.0,
+   "end_s": 37760.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.269,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 32120.0,
+   "end_s": 37760.0,
+   "duration_s": 5640.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.269,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 38880.0,
+   "end_s": 44560.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.263,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 38880.0,
+   "end_s": 44560.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.263,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 45660.0,
+   "end_s": 51340.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.259,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 45660.0,
+   "end_s": 51340.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.259,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 200,
+   "start_s": 47540.0,
+   "end_s": 48040.0,
+   "duration_s": 500.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 200,
+   "to": 100,
+   "start_s": 47540.0,
+   "end_s": 48040.0,
+   "duration_s": 500.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 52440.0,
+   "end_s": 58120.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.255,
+   "via": "Canberra"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 52440.0,
+   "end_s": 58120.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.255,
+   "via": "Canberra"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 59220.0,
+   "end_s": 64900.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.251,
+   "via": "Canberra"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 59220.0,
+   "end_s": 64900.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.251,
+   "via": "Canberra"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 66000.0,
+   "end_s": 71680.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.249,
+   "via": "Canberra+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 66000.0,
+   "end_s": 71680.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.249,
+   "via": "Canberra+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 72780.0,
+   "end_s": 78460.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.247,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 72780.0,
+   "end_s": 78460.0,
+   "duration_s": 5680.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.247,
+   "via": "Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 79560.0,
+   "end_s": 85260.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.246,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 79560.0,
+   "end_s": 85260.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.246,
+   "via": "Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 86340.0,
+   "end_s": 92040.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.245,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 86340.0,
+   "end_s": 92040.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.245,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 200,
+   "start_s": 90860.0,
+   "end_s": 91460.0,
+   "duration_s": 600.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.004,
+   "via": "rover"
+  },
+  {
+   "from": 200,
+   "to": 100,
+   "start_s": 90860.0,
+   "end_s": 91460.0,
+   "duration_s": 600.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.004,
+   "via": "rover"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 93120.0,
+   "end_s": 98820.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.246,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 93120.0,
+   "end_s": 98820.0,
+   "duration_s": 5700.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.246,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 99880.0,
+   "end_s": 105600.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.247,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 99880.0,
+   "end_s": 105600.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.247,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 106660.0,
+   "end_s": 112380.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.25,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 106660.0,
+   "end_s": 112380.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.25,
+   "via": "Goldstone+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 113440.0,
+   "end_s": 119160.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.252,
+   "via": "Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 113440.0,
+   "end_s": 119160.0,
+   "duration_s": 5720.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.252,
+   "via": "Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 120220.0,
+   "end_s": 125960.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.256,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 120220.0,
+   "end_s": 125960.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.256,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 127000.0,
+   "end_s": 132740.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.26,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 127000.0,
+   "end_s": 132740.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.26,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 133780.0,
+   "end_s": 139520.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.265,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 133780.0,
+   "end_s": 139520.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.265,
+   "via": "Canberra+Goldstone"
+  },
+  {
+   "from": 100,
+   "to": 200,
+   "start_s": 135660.0,
+   "end_s": 136160.0,
+   "duration_s": 500.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 200,
+   "to": 100,
+   "start_s": 135660.0,
+   "end_s": 136160.0,
+   "duration_s": 500.0,
+   "rate_bps": 2000000,
+   "owlt_s": 0.003,
+   "via": "rover"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 140560.0,
+   "end_s": 146300.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.271,
+   "via": "Canberra"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 140560.0,
+   "end_s": 146300.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.271,
+   "via": "Canberra"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 147340.0,
+   "end_s": 153080.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.277,
+   "via": "Canberra+Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 147340.0,
+   "end_s": 153080.0,
+   "duration_s": 5740.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.277,
+   "via": "Canberra+Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 154100.0,
+   "end_s": 159860.0,
+   "duration_s": 5760.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.284,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 154100.0,
+   "end_s": 159860.0,
+   "duration_s": 5760.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.284,
+   "via": "Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 160880.0,
+   "end_s": 166660.0,
+   "duration_s": 5780.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.292,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 160880.0,
+   "end_s": 166660.0,
+   "duration_s": 5780.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.292,
+   "via": "Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 167660.0,
+   "end_s": 173440.0,
+   "duration_s": 5780.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.301,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 167660.0,
+   "end_s": 173440.0,
+   "duration_s": 5780.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.301,
+   "via": "Madrid"
+  },
+  {
+   "from": 1,
+   "to": 100,
+   "start_s": 174440.0,
+   "end_s": 177540.0,
+   "duration_s": 3100.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.306,
+   "via": "Madrid"
+  },
+  {
+   "from": 100,
+   "to": 1,
+   "start_s": 174440.0,
+   "end_s": 177540.0,
+   "duration_s": 3100.0,
+   "rate_bps": 500000,
+   "owlt_s": 338.306,
+   "via": "Madrid"
+  }
+ ]
+}

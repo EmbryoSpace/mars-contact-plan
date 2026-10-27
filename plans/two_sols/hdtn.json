@@ -1,0 +1,562 @@
+{
+ "contacts": [
+  {
+   "contact": 1,
+   "source": 1,
+   "dest": 100,
+   "startTime": 0,
+   "endTime": 3860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 2,
+   "source": 100,
+   "dest": 1,
+   "startTime": 0,
+   "endTime": 3860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 3,
+   "source": 100,
+   "dest": 200,
+   "startTime": 2740,
+   "endTime": 3340,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 4,
+   "source": 200,
+   "dest": 100,
+   "startTime": 2740,
+   "endTime": 3340,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 5,
+   "source": 1,
+   "dest": 100,
+   "startTime": 5000,
+   "endTime": 10640,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 6,
+   "source": 100,
+   "dest": 1,
+   "startTime": 5000,
+   "endTime": 10640,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 7,
+   "source": 1,
+   "dest": 100,
+   "startTime": 11780,
+   "endTime": 17420,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 8,
+   "source": 100,
+   "dest": 1,
+   "startTime": 11780,
+   "endTime": 17420,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 9,
+   "source": 1,
+   "dest": 100,
+   "startTime": 18560,
+   "endTime": 24200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 10,
+   "source": 100,
+   "dest": 1,
+   "startTime": 18560,
+   "endTime": 24200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 11,
+   "source": 1,
+   "dest": 100,
+   "startTime": 25340,
+   "endTime": 30980,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 12,
+   "source": 100,
+   "dest": 1,
+   "startTime": 25340,
+   "endTime": 30980,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 13,
+   "source": 1,
+   "dest": 100,
+   "startTime": 32120,
+   "endTime": 37760,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 14,
+   "source": 100,
+   "dest": 1,
+   "startTime": 32120,
+   "endTime": 37760,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 15,
+   "source": 1,
+   "dest": 100,
+   "startTime": 38880,
+   "endTime": 44560,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 16,
+   "source": 100,
+   "dest": 1,
+   "startTime": 38880,
+   "endTime": 44560,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 17,
+   "source": 1,
+   "dest": 100,
+   "startTime": 45660,
+   "endTime": 51340,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 18,
+   "source": 100,
+   "dest": 1,
+   "startTime": 45660,
+   "endTime": 51340,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 19,
+   "source": 100,
+   "dest": 200,
+   "startTime": 47540,
+   "endTime": 48040,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 20,
+   "source": 200,
+   "dest": 100,
+   "startTime": 47540,
+   "endTime": 48040,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 21,
+   "source": 1,
+   "dest": 100,
+   "startTime": 52440,
+   "endTime": 58120,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 22,
+   "source": 100,
+   "dest": 1,
+   "startTime": 52440,
+   "endTime": 58120,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 23,
+   "source": 1,
+   "dest": 100,
+   "startTime": 59220,
+   "endTime": 64900,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 24,
+   "source": 100,
+   "dest": 1,
+   "startTime": 59220,
+   "endTime": 64900,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 25,
+   "source": 1,
+   "dest": 100,
+   "startTime": 66000,
+   "endTime": 71680,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 26,
+   "source": 100,
+   "dest": 1,
+   "startTime": 66000,
+   "endTime": 71680,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 27,
+   "source": 1,
+   "dest": 100,
+   "startTime": 72780,
+   "endTime": 78460,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 28,
+   "source": 100,
+   "dest": 1,
+   "startTime": 72780,
+   "endTime": 78460,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 29,
+   "source": 1,
+   "dest": 100,
+   "startTime": 79560,
+   "endTime": 85260,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 30,
+   "source": 100,
+   "dest": 1,
+   "startTime": 79560,
+   "endTime": 85260,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 31,
+   "source": 1,
+   "dest": 100,
+   "startTime": 86340,
+   "endTime": 92040,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 32,
+   "source": 100,
+   "dest": 1,
+   "startTime": 86340,
+   "endTime": 92040,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 33,
+   "source": 100,
+   "dest": 200,
+   "startTime": 90860,
+   "endTime": 91460,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 34,
+   "source": 200,
+   "dest": 100,
+   "startTime": 90860,
+   "endTime": 91460,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 35,
+   "source": 1,
+   "dest": 100,
+   "startTime": 93120,
+   "endTime": 98820,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 36,
+   "source": 100,
+   "dest": 1,
+   "startTime": 93120,
+   "endTime": 98820,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 37,
+   "source": 1,
+   "dest": 100,
+   "startTime": 99880,
+   "endTime": 105600,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 38,
+   "source": 100,
+   "dest": 1,
+   "startTime": 99880,
+   "endTime": 105600,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 39,
+   "source": 1,
+   "dest": 100,
+   "startTime": 106660,
+   "endTime": 112380,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 40,
+   "source": 100,
+   "dest": 1,
+   "startTime": 106660,
+   "endTime": 112380,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 41,
+   "source": 1,
+   "dest": 100,
+   "startTime": 113440,
+   "endTime": 119160,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 42,
+   "source": 100,
+   "dest": 1,
+   "startTime": 113440,
+   "endTime": 119160,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 43,
+   "source": 1,
+   "dest": 100,
+   "startTime": 120220,
+   "endTime": 125960,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 44,
+   "source": 100,
+   "dest": 1,
+   "startTime": 120220,
+   "endTime": 125960,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 45,
+   "source": 1,
+   "dest": 100,
+   "startTime": 127000,
+   "endTime": 132740,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 46,
+   "source": 100,
+   "dest": 1,
+   "startTime": 127000,
+   "endTime": 132740,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 47,
+   "source": 1,
+   "dest": 100,
+   "startTime": 133780,
+   "endTime": 139520,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 48,
+   "source": 100,
+   "dest": 1,
+   "startTime": 133780,
+   "endTime": 139520,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 49,
+   "source": 100,
+   "dest": 200,
+   "startTime": 135660,
+   "endTime": 136160,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 50,
+   "source": 200,
+   "dest": 100,
+   "startTime": 135660,
+   "endTime": 136160,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 51,
+   "source": 1,
+   "dest": 100,
+   "startTime": 140560,
+   "endTime": 146300,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 52,
+   "source": 100,
+   "dest": 1,
+   "startTime": 140560,
+   "endTime": 146300,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 53,
+   "source": 1,
+   "dest": 100,
+   "startTime": 147340,
+   "endTime": 153080,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 54,
+   "source": 100,
+   "dest": 1,
+   "startTime": 147340,
+   "endTime": 153080,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 55,
+   "source": 1,
+   "dest": 100,
+   "startTime": 154100,
+   "endTime": 159860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 56,
+   "source": 100,
+   "dest": 1,
+   "startTime": 154100,
+   "endTime": 159860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 57,
+   "source": 1,
+   "dest": 100,
+   "startTime": 160880,
+   "endTime": 166660,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 58,
+   "source": 100,
+   "dest": 1,
+   "startTime": 160880,
+   "endTime": 166660,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 59,
+   "source": 1,
+   "dest": 100,
+   "startTime": 167660,
+   "endTime": 173440,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 60,
+   "source": 100,
+   "dest": 1,
+   "startTime": 167660,
+   "endTime": 173440,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 61,
+   "source": 1,
+   "dest": 100,
+   "startTime": 174440,
+   "endTime": 177540,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 62,
+   "source": 100,
+   "dest": 1,
+   "startTime": 174440,
+   "endTime": 177540,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  }
+ ]
+}

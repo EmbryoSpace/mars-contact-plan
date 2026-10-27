@@ -56,6 +56,29 @@ Output files:
 - Not modelled: terrain masking, link budgets, the Sun near the line of sight (solar
   conjunction), and Earth's precession since J2000 (about 0.4 degrees).
 
+## Checked in ION and HDTN
+
+`interop/run_check.sh <plan dir> <step>` loads a plan into
+[ION](https://github.com/nasa-jpl/ION-DTN) (`ionadmin`, then `cgrfetch`) and
+[HDTN](https://github.com/nasa/HDTN) (its contact graph routing library, called the way its
+router calls it) and asks each for the route from Earth to the rover and back, at every
+`<step>` seconds of the plan. `interop/check_routes.py` compares each answer with the
+earliest arrival computed directly from `contacts.json`. It needs the `interop/ion` and
+`interop/hdtn` Docker images from
+[bpv7-interop-matrix](https://github.com/EmbryoSpace/bpv7-interop-matrix).
+
+For `plans/two_sols` (two sols from 2027-02-19 over Jezero crater, hourly send times, 100
+queries), ION, HDTN and the plan agree on every delivery time: both route Earth -> orbiter
+-> rover and back, wait at the orbiter for the next pass, and find no route after the last
+one. Results: [plans/two_sols/ROUTE_CHECK.txt](plans/two_sols/ROUTE_CHECK.txt).
+
+Two things to know when doing the same:
+
+- `cgrfetch` answers only the first query on a running ION node; later queries return no
+  routes. The check starts a fresh node for each query.
+- HDTN's `Route::best_delivery_time` is computed from contact start times only, so it can
+  be earlier than the send time. The check uses the arrival time of the route search.
+
 ## Checks
 
 ```bash
