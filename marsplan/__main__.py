@@ -50,21 +50,18 @@ def main():
     print(f"orbit {orbit.periapsis_alt_km:.0f} x {orbit.apoapsis_alt_km:.0f} km, i={orbit.inclination_deg} deg, "
           f"period {orbit.period_s / 60:.1f} min")
     print(f"Earth-Mars one-way light time at start: {one_way_light_time_s(jd) / 60:.2f} min")
-    for c in contacts:
-        if c.a < c.b or c.a == a.earth_node:
-            continue
+    # One line per contact direction that matters: site -> orbiter and orbiter -> Earth
     shown = [c for c in contacts if (c.a, c.b) in {(s.node, a.orbiter_node) for s in sites} | {(a.orbiter_node, a.earth_node)}]
     for c in shown:
         kind = "orbiter->Earth" if c.b == a.earth_node else f"{c.via}->orbiter"
         print(f"  {kind:22s} +{c.start / 3600:6.2f} h  {(c.end - c.start) / 60:5.1f} min  owlt {c.owlt_s:8.3f} s  {c.via if c.b == a.earth_node else ''}")
     if a.out:
         os.makedirs(a.out, exist_ok=True)
-        with open(os.path.join(a.out, "ion.rc"), "w") as f:
-            f.write(writers.ion(contacts))
-        with open(os.path.join(a.out, "hdtn.json"), "w") as f:
-            f.write(writers.hdtn(contacts))
-        with open(os.path.join(a.out, "contacts.json"), "w") as f:
-            f.write(writers.plain(contacts, start.isoformat()))
+        # LF line endings on every platform: ION and HDTN run on Linux
+        for name, text in (("ion.rc", writers.ion(contacts)), ("hdtn.json", writers.hdtn(contacts)),
+                           ("contacts.json", writers.plain(contacts, start.isoformat()))):
+            with open(os.path.join(a.out, name), "w", newline="\n") as f:
+                f.write(text)
         print(f"wrote {a.out}/ion.rc, hdtn.json, contacts.json ({len(contacts)} contacts)")
 
 
