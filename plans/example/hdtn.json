@@ -1,0 +1,148 @@
+{
+ "contacts": [
+  {
+   "contact": 1,
+   "source": 1,
+   "dest": 100,
+   "startTime": 0,
+   "endTime": 3860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 2,
+   "source": 100,
+   "dest": 1,
+   "startTime": 0,
+   "endTime": 3860,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 3,
+   "source": 100,
+   "dest": 200,
+   "startTime": 2740,
+   "endTime": 3340,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 4,
+   "source": 200,
+   "dest": 100,
+   "startTime": 2740,
+   "endTime": 3340,
+   "rateBitsPerSec": 2000000,
+   "owlt": 1
+  },
+  {
+   "contact": 5,
+   "source": 1,
+   "dest": 100,
+   "startTime": 5000,
+   "endTime": 10640,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 6,
+   "source": 100,
+   "dest": 1,
+   "startTime": 5000,
+   "endTime": 10640,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 7,
+   "source": 1,
+   "dest": 100,
+   "startTime": 11780,
+   "endTime": 17420,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 8,
+   "source": 100,
+   "dest": 1,
+   "startTime": 11780,
+   "endTime": 17420,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 9,
+   "source": 1,
+   "dest": 100,
+   "startTime": 18560,
+   "endTime": 24200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 10,
+   "source": 100,
+   "dest": 1,
+   "startTime": 18560,
+   "endTime": 24200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 11,
+   "source": 1,
+   "dest": 100,
+   "startTime": 25340,
+   "endTime": 30980,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 12,
+   "source": 100,
+   "dest": 1,
+   "startTime": 25340,
+   "endTime": 30980,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 13,
+   "source": 1,
+   "dest": 100,
+   "startTime": 32120,
+   "endTime": 37760,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 14,
+   "source": 100,
+   "dest": 1,
+   "startTime": 32120,
+   "endTime": 37760,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 15,
+   "source": 1,
+   "dest": 100,
+   "startTime": 38880,
+   "endTime": 43200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  },
+  {
+   "contact": 16,
+   "source": 100,
+   "dest": 1,
+   "startTime": 38880,
+   "endTime": 43200,
+   "rateBitsPerSec": 500000,
+   "owlt": 339
+  }
+ ]
+}
